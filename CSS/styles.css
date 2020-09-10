@@ -9,23 +9,44 @@
     text-align: center;
 }
 
-nav {
-    text-align: center;
-    color: white;
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(214, 97, 2);
+    color: #fff;
+    padding: 1.5rem 8rem ;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #fce411;
 }
-
-nav a {
-    font-family: Arial, Helvetica, sans-serif;
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+}
+#navbar h2 a {
+    color: #fff;
     text-decoration: none;
-    text-align: center;
-    color: rgb(87, 33, 33);
-    padding: 1px;
+}
+#navbar li a {
+    text-decoration: none ;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#navbar li a:hover{
+    background-color: #ff9036;
 }
 
 body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 .personal {
     list-style-type: none;
